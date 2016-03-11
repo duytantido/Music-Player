@@ -488,7 +488,6 @@ body.active .spin::after {
   width: 100%;
   max-width: 360px;
   height: 90%;
-  min-height: 600px;
   margin: auto;
   background: #549fb2;
   border-radius: 5px;
