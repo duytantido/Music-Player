@@ -517,6 +517,10 @@ body.active .spin::after {
   opacity: .1;
 }
 
+.w-player:hover .i-player {
+  opacity: .5;
+}
+
 .i-player::before, .i-player::after {
   content: "";
   display: block;
