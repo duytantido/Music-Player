@@ -562,6 +562,7 @@ body.active .spin::after {
   top: 50%;
   left: 50%;
   z-index: 10;
+  cursor: pointer;
 }
 
 .ctn-play svg {
@@ -589,7 +590,8 @@ body.active .spin::after {
   left: 50%;
   cursor: pointer;
   z-index: 2;
-  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
+  border: 1px solid #66B4D8;
 }
 
 .spin.sound {
@@ -680,14 +682,14 @@ body.active .spin::after {
 
 @keyframes zoom1 {
   from {
-    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
-    -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+    -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) inset;
   }
   to {
-    -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) inset;
   }
 }
 
