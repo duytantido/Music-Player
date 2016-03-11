@@ -444,6 +444,7 @@ body.active .i-player {
   -webkit-animation: zoom  1s linear infinite;
   -moz-animation: zoom  1s linear infinite;
   animation: zoom 1s cubic-bezier(0.79, 0.21, 0.48, 0.81) infinite;
+  opacity: 1;
 }
 
 body.active .i-player::before {
@@ -513,6 +514,7 @@ body.active .spin::after {
   z-index: 1;
   background: transparent;
   transition: all .3s linear;
+  opacity: .1;
 }
 
 .i-player::before, .i-player::after {
