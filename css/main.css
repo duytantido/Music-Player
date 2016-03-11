@@ -682,77 +682,77 @@ body.active .spin::after {
 
 @keyframes zoom1 {
   from {
-    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) inset;
-    -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) inset;
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) ;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.08) ;
   }
   to {
-    -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) ;
+    -moz-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1) ;
   }
 }
 
 @keyframes sound {
   0% {
     transform: scale(0.91);
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
   }
   10% {
     transform: scale(0.95);
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
   }
   15% {
     transform: scale(0.9);
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
   }
   20% {
     transform: scale(0.94);
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
   }
   25% {
     transform: scale(0.89);
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
   }
   30% {
     transform: scale(0.95);
-    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5) inset;
   }
   50% {
     transform: scale(0.95);
-    box-shadow: 0px 0px 2px 100px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 100px rgba(0, 0, 0, 0.5) inset;
   }
   70% {
     transform: scale(0.96);
-    box-shadow: 0px 0px 2px 200px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 2px 200px rgba(0, 0, 0, 0.1) inset;
   }
   75% {
     transform: scale(0.98);
-    box-shadow: 0px 0px 2px 300px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 2px 300px rgba(0, 0, 0, 0.05) inset ;
   }
   80% {
     transform: scale(0.99);
-    box-shadow: 0px 0px 2px 200px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 2px 200px rgba(0, 0, 0, 0.05) inset;
   }
   85% {
     transform: scale(0.995);
-    box-shadow: 0px 0px 2px 150px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 2px 150px rgba(0, 0, 0, 0.05) inset;
   }
   90% {
     transform: scale(0.995);
-    box-shadow: 0px 0px 2px 100px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 2px 100px rgba(0, 0, 0, 0.1) inset;
   }
   95% {
     transform: scale(0.995);
-    box-shadow: 0px 0px 2px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px 80px rgba(0, 0, 0, 0.2) inset;
   }
   95% {
     transform: scale(0.995);
-    box-shadow: 0px 0px 2px 80px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px 80px rgba(0, 0, 0, 0.3) inset;
   }
   100% {
     transform: scale(1);
-    box-shadow: 0px 0px 2px 1 rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 2px 1 rgba(0, 0, 0, 0.4) inset;
   }
 }
 
