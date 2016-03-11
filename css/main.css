@@ -581,8 +581,8 @@ body.active .spin::after {
 }
 
 .spin.sound {
-  -webkit-animation: sound 1.5s cubic-bezier(0.79, 0.21, 0.48, 0.81), spin-cw 7s cubic-bezier(0.79, 0.21, 0.48, 0.81) infinite !important;
-  animation: sound 1.5s cubic-bezier(0.79, 0.21, 0.48, 0.81), spin-cw 7s cubic-bezier(0.79, 0.21, 0.48, 0.81) infinite !important;
+  -webkit-animation: sound 1.5s cubic-bezier(0.79, 0.21, 0.48, 0.81) infinite;
+  animation: sound 1.5s cubic-bezier(0.79, 0.21, 0.48, 0.81) infinite;
 }
 
 .spin::before, .spin::after {
